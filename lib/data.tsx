@@ -8,7 +8,7 @@ type Employee = {
   
 
 export const getData  = async ():Promise<Employee[]>=>{
-    const res = await fetch('http://localhost:3001/EmployeeData',{next:{revalidate:0}});
+    const res = await fetch('http://localhost:3004/EmployeeData',{next:{revalidate:0}});
   
     if(!res.ok){
       throw new Error("Something went wrong");

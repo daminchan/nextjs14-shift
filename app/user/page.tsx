@@ -1,9 +1,10 @@
+import EditForm from '@/components/editShiftForm/editForm'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      aaa
+      <EditForm></EditForm>
     </div>
   )
 }

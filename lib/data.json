@@ -1,0 +1,21 @@
+{
+    "EmployeeData": [
+      {
+        "employee_id": 1,
+        "name":"user1",
+        "description":"バイト",
+        "shifts": [
+          { "date": 20, "start_time": "10:00" , "end_time": "21" }
+        ]
+      },
+      {
+        "employee_id": 2,
+        "name": "user2",
+        "description":"バイト",
+        "shifts": [
+            { "date": 15, "start_time": "09:00" , "end_time": "21" },
+            { "date": 16, "start_time": "09:00" , "end_time": "21" }
+        ]
+        }
+    ]
+  }
